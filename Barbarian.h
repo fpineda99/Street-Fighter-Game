@@ -31,7 +31,7 @@ private:
 public:
     Barbarian();
     Barbarian(int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma);
-    ~Barbarian() override;
+    virtual ~Barbarian();
 
     void setStats();
     void setDamage();
